@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 import "./index.css"; 
 
 const cardData = [
-  { image_url: "image 1 dbz.jpg", user_id: 1 },
-  { image_url: "image 2 dbz.jpg", user_id: 2 },
-  { image_url: "image 3 dbz.jpg", user_id: 3 },
-  { image_url: "image 4 dbz.jpg", user_id: 4 },
+  { image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVBeUc4qOt8KPhuQqPM3a2fF-KuX7AP9eu1-nv1dNTijPaTT72sqUu9c-MBURiWpt14Dg&usqp=CAU", user_id: 1 },
+  { image_url: "https://i.ebayimg.com/images/g/ercAAOSwpOxmfJVL/s-l400.jpg", user_id: 2 },
+  { image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrwClS4jNDjSYCUgXhNp5aEG-DceDU5kdVyoA7BVe70NZdjzLvBuL08vG6QWWP01ofIM&usqp=CAU", user_id: 3 },
+  { image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBGjXMkhgvycpNSR3pewM8t3S0OAJdqMCdckR4PShYx9RUUC13YKorCoyc0XIt7dhp4iY&usqp=CAU", user_id: 4 },
 ];
 
 function CardGame() {
