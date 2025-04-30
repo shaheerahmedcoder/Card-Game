@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  text-align: center;
+  background: radial-gradient(circle at center, #234567, #0a1f33);
+}
+
+.container {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  color: yellow;
+ 
+}
+.container1 {
+  position: absolute;
+  top: 1%;
+  width: 100%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background: radial-gradient(circle at center, #bfcad5, #000000);
+ 
+}
+
+
+.card-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-image {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #000;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.shuffle-button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.card-image {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #000;
+  transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.card-image:hover {
+  transform: scale(1.1);
+  border-color: yellow;
+}
+
+.card-image:active {
+  transform: scale(1.2);
+  border-color: red;
+}
